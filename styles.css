@@ -7,7 +7,7 @@ div#react-root.landscape-width-css video {
     transform: scale(1.5) rotate(90deg);
     width: 100vh !important;
     height: 100vw !important;
-    transform: rotateZ(90deg);
+    transform: rotateZ(270deg);
     margin-left: 321px;
     margin-top: -321px;
 }
