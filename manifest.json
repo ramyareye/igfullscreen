@@ -1,0 +1,20 @@
+{
+"name":"Instagram Landscape Mode",
+"description":"Adds a simple button to Instagram live to do a css full screen",
+"version":"0.1.0",
+"author":"Reza Babaei",
+"author_email":"thewickedkillah@gmail.com",
+"manifest_version":2,
+"content_scripts": [
+    {
+      "matches": ["https://www.instagram.com/*"],
+      "js": ["script.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": { 
+    "16": "fullscreen.png",
+    "48": "fullscreen.png",
+    "128": "fullscreen.png"
+  }
+}
