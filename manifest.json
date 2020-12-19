@@ -3,7 +3,6 @@
 "description":"Adds a simple button to Instagram live to do a css full screen",
 "version":"0.1.0",
 "author":"Reza Babaei",
-"author_email":"thewickedkillah@gmail.com",
 "manifest_version":2,
 "content_scripts": [
     {
