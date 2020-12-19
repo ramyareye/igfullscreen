@@ -4,8 +4,8 @@ div#react-root.landscape-width-css video {
     pointer-events: none;
     contain: strict;
     z-index: 9999;
-    transform: scale(1.5) rotate(90deg);
-    width: 100vh !important;
+/*    transform: scale(1.5) rotate(90deg);
+*/    width: 100vh !important;
     height: 100vw !important;
     transform: rotateZ(270deg);
     margin-left: 321px;
@@ -19,7 +19,7 @@ div#react-root.landscape-width-css section {
     left: 0;
     bottom: 0;
     right: 0;
-    background: blue;
+    /*background: blue;*/
     display: inline-block;
     width: 100%;
     height: 100%;
