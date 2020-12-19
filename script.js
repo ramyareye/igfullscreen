@@ -8,8 +8,9 @@ var runner = function() {
             var video = root_.getElementsByTagName('video')[0];
             var videoParent = video.closest("div");
 
-            if (videoParent) {
-                body.classList.add("with-instagram-landscaper");
+            if (videoParent) {   
+                // var body = document.getElementsByTagName("BODY")[0];           
+                document.body.classList.add("with-instagram-landscaper");
                 videoParent.classList.add("video-container");
 
                 var node = document.createElement("span"); 
@@ -24,7 +25,7 @@ var runner = function() {
 
                 document.body.onkeyup = function(e){
                     if(e.key === 'Escape' && root_.classList.contains('landscape-width-css')){
-                        body.classList.remove("with-instagram-landscaper");
+                        document.body.classList.remove("with-instagram-landscaper");
                         root_.classList.remove('landscape-width-css');
                     }
                 }
